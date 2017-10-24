@@ -499,5 +499,10 @@
     </exclusion>
    </exclusions>
   </dependency>
+  <!-- used to get current branch in codox scripts -->
+  <!-- not used at present -->
+  <!-- <dependency> <groupId>org.eclipse.jgit</groupId> <artifactId>org.eclipse.jgit</artifactId> 
+   <version>${jgit-version}</version> <exclusions> <exclusion> <groupId>org.slf4j</groupId> 
+   <artifactId>slf4j-api</artifactId> </exclusion> </exclusions> </dependency> -->
  </dependencies>
 </project>
