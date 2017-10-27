@@ -3,4 +3,4 @@ src/test/java/* linguist-vendored
 * text=auto eol=lf
 *.bat text eol=crlf
 *.png -text
-
+pom.xml linguist-language=Maven
