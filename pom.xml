@@ -17,7 +17,7 @@
   <asm-version>6.0</asm-version>
   <cheshire-version>5.8.0</cheshire-version>
   <!-- clojure-version>1.8.0</clojure-version -->
-  <clojure-version>1.9.0-beta3</clojure-version>
+  <clojure-version>1.9.0-beta4</clojure-version>
   <clojure-maven-version>1.8.1</clojure-maven-version>
   <commons-math3-version>3.6.1</commons-math3-version>
   <codox-version>0.10.3</codox-version>
