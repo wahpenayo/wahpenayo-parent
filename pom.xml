@@ -14,21 +14,32 @@
  <properties>
   <doclint>none</doclint>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <apfloat-version>1.8.3</apfloat-version>
   <asm-version>6.0</asm-version>
   <cheshire-version>5.8.0</cheshire-version>
+  <clatrix-version>0.5.0</clatrix-version>
+  <clj-tuple-version>0.2.2</clj-tuple-version>
   <!-- clojure-version>1.8.0</clojure-version -->
   <clojure-version>1.9.0-beta4</clojure-version>
+  <clojure-core-async-version>0.3.442</clojure-core-async-version>
   <clojure-maven-version>1.8.1</clojure-maven-version>
+  <clojurecl-version>0.7.1</clojurecl-version>
+  <commons-lang3-version>3.6</commons-lang3-version>
   <commons-math3-version>3.6.1</commons-math3-version>
+  <commons-rng-version>1.0</commons-rng-version>
   <codox-version>0.10.3</codox-version>
   <criterium-version>0.4.4</criterium-version>
+  <fastutil-version>8.1.0</fastutil-version>
   <fipp-version>0.6.10</fipp-version>
   <graph-maven-version>1.2.3</graph-maven-version>
   <guava-version>23.2-jre</guava-version>
   <hiccup-version>1.0.5</hiccup-version>
   <hppc-version>0.7.2</hppc-version>
   <java-version>1.9</java-version>
+  <java-sizeof-version>0.0.5</java-sizeof-version>
   <jgit-version>4.9.0.201710071750-r</jgit-version>
+  <jcuda-version>0.8.0</jcuda-version>
+  <junit-version>4.12</junit-version>
   <lifecycle-mapping-version>1.0.0</lifecycle-mapping-version>
   <maven-assembly-version>3.1.0</maven-assembly-version>
   <maven-clean-version>3.0.0</maven-clean-version>
@@ -43,7 +54,10 @@
   <maven-scm-plugin-version>1.9.5</maven-scm-plugin-version>
   <maven-site-version>3.6</maven-site-version>
   <maven-source-plugin-version>3.0.1</maven-source-plugin-version>
+  <neanderthal-version>0.17.0</neanderthal-version>
+  <oshi-version>3.4.4</oshi-version>
   <parboiled-java-version>1.1.8</parboiled-java-version>
+  <potemkin-version>0.4.4</potemkin-version>
   <slf4j-version>1.7.25</slf4j-version>
   <uncommons-maths-version>1.2.3</uncommons-maths-version>
   <versions-plugin-version>2.3</versions-plugin-version>
@@ -499,10 +513,20 @@
     </exclusion>
    </exclusions>
   </dependency>
-  <!-- used to get current branch in codox scripts -->
-  <!-- not used at present -->
-  <!-- <dependency> <groupId>org.eclipse.jgit</groupId> <artifactId>org.eclipse.jgit</artifactId> 
-   <version>${jgit-version}</version> <exclusions> <exclusion> <groupId>org.slf4j</groupId> 
-   <artifactId>slf4j-api</artifactId> </exclusion> </exclusions> </dependency> -->
+   <!-- used to get current branch in codox scripts -->
+   <!-- not used at present -->
+   <!-- 
+  <dependency>
+   <groupId>org.eclipse.jgit</groupId>
+   <artifactId>org.eclipse.jgit</artifactId>
+   <version>${jgit-version}</version>
+   <exclusions>
+    <exclusion>
+     <groupId>org.slf4j</groupId>
+     <artifactId>slf4j-api</artifactId>
+    </exclusion>
+   </exclusions>
+  </dependency>
+   -->
  </dependencies>
 </project>
