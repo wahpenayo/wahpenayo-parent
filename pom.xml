@@ -29,6 +29,7 @@
   <commons-lang3-version>3.7</commons-lang3-version>
   <commons-math3-version>3.6.1</commons-math3-version>
   <commons-rng-version>1.0</commons-rng-version>
+  <!-- commons-statistics-version>1.0</commons-statistics-version -->
   <codox-version>0.10.3</codox-version>
   <criterium-version>0.4.4</criterium-version>
   <eclipse-collections-version>9.1.0</eclipse-collections-version>
