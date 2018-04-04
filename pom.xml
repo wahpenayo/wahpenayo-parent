@@ -253,6 +253,7 @@
     </goals> </execution> <execution> <id>test-compile</id> <phase>test-compile</phase> 
     <goals> <goal>testCompile</goal> </goals> </execution> <execution> <id>clojure-test</id> 
     <phase>test</phase> <goals> <goal>test</goal> </goals> </execution> </executions> 
+     <vmArgs>-ea -dsa</vmArgs>
     <configuration> <clojureOptions>-Dclojure.compiler.direct-linking=true</clojureOptions> 
     <namespaces> <namespace>!wahpenayo.doc.*</namespace> </namespaces> <copiedNamespaces> 
     <namespace>!.*</namespace> </copiedNamespaces> <testNamespaces> <namespace>!wahpenayo.test.*</namespace> 
