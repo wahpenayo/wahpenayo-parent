@@ -7,9 +7,9 @@
  <modelVersion>4.0.0</modelVersion>
  <groupId>wahpenayo</groupId>
  <artifactId>wahpenayo-parent</artifactId>
+ <version>4.1.0-SNAPSHOT</version>
  <packaging>pom</packaging>
  <description>Parent pom for ${project.groupId} projects.</description>
- <version>4.1.0-SNAPSHOT</version>
  <url>https://github.com/${project.groupId}/${project.artifactId}</url>
  <properties>
   <doclint>none</doclint>
@@ -24,6 +24,8 @@
   <clojure-version>1.9.0</clojure-version>
   <clojure-core-async-version>0.4.474</clojure-core-async-version>
   <clojure-maven-version>1.8.1</clojure-maven-version>
+  <clojure.vmargs>-ea -dsa</clojure.vmargs>
+  <clojure.options>-ea -dsa -Dclojure.compiler.direct-linking=true</clojure.options>
   <clojurecl-version>0.8.0</clojurecl-version>
   <commons-compress-version>1.15</commons-compress-version>
   <commons-lang3-version>3.7</commons-lang3-version>
@@ -255,8 +257,6 @@
     <phase>test</phase> <goals> <goal>test</goal> </goals> </execution> </executions> 
      <vmArgs>-ea -dsa</vmArgs>
     <configuration> <clojureOptions>-Dclojure.compiler.direct-linking=true</clojureOptions> 
-    <namespaces> <namespace>!wahpenayo.doc.*</namespace> </namespaces> <copiedNamespaces> 
-    <namespace>!.*</namespace> </copiedNamespaces> <testNamespaces> <namespace>!wahpenayo.test.*</namespace> 
     </testNamespaces> </configuration> </plugin -->
    <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -537,10 +537,5 @@
    </exclusions>
   </dependency>
    -->
-  <!-- dependency> <groupId>marginalia</groupId> <artifactId>marginalia</artifactId> 
-   <version>0.9.0</version> <exclusions> <exclusion> <groupId>org.clojure</groupId> 
-   <artifactId>clojure</artifactId> </exclusion> </exclusions> </dependency -->
-  <!-- dependency> <groupId>net.colourcoding</groupId> <artifactId>ulisse</artifactId> 
-   <version>0.2.2</version> </dependency -->
  </dependencies>
 </project>
