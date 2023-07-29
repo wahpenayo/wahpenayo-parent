@@ -78,7 +78,7 @@
   <spire_2_13_version>0.18.0</spire_2_13_version>
   <timestamp>${maven.build.timestamp}</timestamp>
   <uncommons-maths-version>1.2.3</uncommons-maths-version>
-  <versions-maven-plugin-version>2.15.0</versions-maven-plugin-version>
+  <versions-maven-plugin-version>2.16.0</versions-maven-plugin-version>
   <!-- TODO: test all 6.x versions -->
   <!-- <xmp-core-version>5.1.3</xmp-core-version> -->
   <xmp-core-version>6.0.6</xmp-core-version>
