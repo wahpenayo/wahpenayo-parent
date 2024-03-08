@@ -17,7 +17,7 @@
   <cheshire-version>5.11.0</cheshire-version>
   <clatrix-version>0.5.0</clatrix-version>
   <clj-tuple-version>0.2.2</clj-tuple-version>
-  <clojure-version>1.11.1</clojure-version>
+  <clojure-version>1.11.2</clojure-version>
   <clojure-core-async-version>1.6.673</clojure-core-async-version>
   <clojure-core-memoize-version>1.0.257</clojure-core-memoize-version>
   <clojure-math-numeric-tower-version>0.0.5</clojure-math-numeric-tower-version>
