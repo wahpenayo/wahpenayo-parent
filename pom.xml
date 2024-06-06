@@ -19,7 +19,7 @@
   <clj-tuple-version>0.2.2</clj-tuple-version>
   <clojure-version>1.11.3</clojure-version>
   <clojure-core-async-version>1.6.681</clojure-core-async-version>
-  <clojure-core-memoize-version>1.0.266</clojure-core-memoize-version>
+  <clojure-core-memoize-version>1.1.266</clojure-core-memoize-version>
   <clojure-math-numeric-tower-version>0.1.0</clojure-math-numeric-tower-version>
   <clojure-maven-version>1.9.2</clojure-maven-version>
   <clojure.vmargs>-ea -dsa</clojure.vmargs>
