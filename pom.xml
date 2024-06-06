@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
->
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+ <description>Parent pom for ${project.groupId} projects.</description>
+ <url>https://github.com/${project.groupId}/${project.artifactId}</url>
  <modelVersion>4.0.0</modelVersion>
+ <packaging>pom</packaging>
  <groupId>wahpenayo</groupId>
  <artifactId>wahpenayo-parent</artifactId>
  <version>4.1.1-SNAPSHOT</version>
- <packaging>pom</packaging>
- <description>Parent pom for ${project.groupId} projects.</description>
- <url>https://github.com/${project.groupId}/${project.artifactId}</url>
+ <name>Wahpenayo parent project</name>
  <properties>
   <doclint>none</doclint>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -77,6 +77,7 @@
   <slf4j-version>2.0.13</slf4j-version>
   <spire_2_12_version>0.17.0</spire_2_12_version>
   <spire_2_13_version>0.18.0</spire_2_13_version>
+  <testng-version>7.10.2</testng-version>
   <timestamp>${maven.build.timestamp}</timestamp>
   <uncommons-maths-version>1.2.3</uncommons-maths-version>
   <versions-maven-plugin-version>2.16.2</versions-maven-plugin-version>
