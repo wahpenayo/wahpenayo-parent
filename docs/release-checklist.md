@@ -1,6 +1,6 @@
 # Release checklist
 
-When any step fails, and there are code changes, go bakc to the 
+When any step fails, and there are code changes, go back to the 
 beginning and start again.
 
 **TODO:** automation for the whole process.
@@ -17,7 +17,7 @@ dependencies.
     
 2. (Maven)`mvn clean install`
 
-    complete without errors; passes all 'unit' (actutests.
+    complete without errors; passes all 'unit' tests.
     
 3. (clj) Significant scripts, if any, run successfully by hand.
 
@@ -26,8 +26,8 @@ dependencies.
     build. However, really validating a release may require 
     running test scripts that take hours or days.
     The real difference between steps 2 and 3 is the length of
-    time a test takes, not the difference between a 'unit' test
-    and an `integration' test.
+    time a test takes, not the difference between a "unit" test
+    and an "integration" test.
     
 4. dependent projects also build and run successfully.
 
@@ -40,7 +40,7 @@ dependencies.
 
 7. `mvn release:perform`
 
-8. Deploy codox and javadoc to Github pages
+8. Deploy codox and Javadoc to GitHub pages
 
     See [Deploying to GitHub Pages](https://github.com/weavejester/codox/wiki/Deploying-to-GitHub-Pages).
 

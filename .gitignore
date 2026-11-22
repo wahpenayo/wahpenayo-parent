@@ -28,7 +28,6 @@
 *.gls
 *.ilg
 *.ind
-*.out
 *.xdy
 *.ist
 *syntex*
